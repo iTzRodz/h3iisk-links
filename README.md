@@ -1,87 +1,114 @@
-# Welcome to React Router!
+# 🎮 H3iisk Links
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Uma página moderna e responsiva para centralizar todos os links úteis do streamer **H3iisk**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 📋 Sobre o Projeto
 
-## Features
+Este projeto foi desenvolvido para criar uma página de links centralizada do streamer H3iisk, facilitando o acesso dos fãs a todas as suas redes sociais e canais de conteúdo. A página apresenta um design limpo e moderno, com foco na experiência do usuário.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+### 🌟 Funcionalidades
 
-## Getting Started
+- ✅ Design responsivo e moderno
+- ✅ Links para todas as redes sociais do H3iisk
+- ✅ Interface intuitiva e clean
+- ✅ Efeitos de hover e transições suaves
+- ✅ Otimizada para dispositivos móveis e desktop
 
-### Installation
+## 🚀 Tecnologias Utilizadas
 
-Install the dependencies:
+- **React 19** - Biblioteca JavaScript para interfaces de usuário
+- **TypeScript** - Superset do JavaScript com tipagem estática
+- **Vite** - Build tool e dev server extremamente rápido
+- **Tailwind CSS 4** - Framework CSS utility-first
+- **ESLint** - Linter para manter a qualidade do código
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+cd h3iisk-links
+```
+
+2. Instale as dependências:
 
 ```bash
 npm install
+# ou
+yarn install
 ```
 
-### Development
-
-Start the development server with HMR:
+3. Execute o projeto em modo de desenvolvimento:
 
 ```bash
 npm run dev
+# ou
+yarn dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+4. Acesse `http://localhost:5173` no seu navegador
 
-## Building for Production
-
-Create a production build:
+### Outros Comandos Disponíveis
 
 ```bash
+# Build para produção
 npm run build
+
+# Preview da build de produção
+npm run preview
+
+# Executar linter
+npm run lint
 ```
 
-## Deployment
+## 📱 Links Incluídos
 
-### Docker Deployment
+A página centraliza os seguintes links do H3iisk:
 
-To build and run using Docker:
+- 🎮 **Twitch** - Canal principal de lives
+- 📺 **YouTube** - Conteúdo gravado e highlights
+- 📸 **Instagram** - Fotos e stories
+- 🏢 **PhantomLab** - Empresa/Organização
+- 📧 **Email** - Contato direto
 
-```bash
-docker build -t my-app .
+## 🎨 Design
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+O design foi pensado para ser:
 
-The containerized application can be deployed to any platform that supports Docker, including:
+- **Minimalista**: Layout clean e fácil de navegar
+- **Responsivo**: Funciona perfeitamente em mobile e desktop
+- **Acessível**: Cores contrastantes e boa legibilidade
+- **Moderno**: Uso de sombras, bordas arredondadas e transições suaves
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
+## 📄 Estrutura do Projeto
 
 ```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+src/
+├── assets/
+│   ├── h3iisk-img.jpg    # Foto do streamer
+│   └── icons/            # Ícones personalizados das redes sociais
+│       ├── instagram.tsx
+│       ├── mail.tsx
+│       ├── twitch.tsx
+│       └── youtube.tsx
+├── App.tsx              # Componente principal
+├── App.css              # Estilos específicos
+├── main.tsx             # Ponto de entrada
+└── index.css            # Estilos globais
 ```
 
-## Styling
+## 🤝 Contribuindo
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Sinta-se à vontade para contribuir com o projeto! Abra uma issue ou envie um pull request.
 
----
+## 📝 Licença
 
-Built with ❤️ using React Router.
+Este projeto é de uso pessoal para o streamer H3iisk.
