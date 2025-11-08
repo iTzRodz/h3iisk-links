@@ -88,7 +88,48 @@ O design foi pensado para ser:
 - **Acessível**: Cores contrastantes e boa legibilidade
 - **Moderno**: Uso de sombras, bordas arredondadas e transições suaves
 
-## 📄 Estrutura do Projeto
+## � SEO e Otimizações
+
+O projeto implementa diversas práticas de SEO para melhor indexação:
+
+### Meta Tags Implementadas
+
+- ✅ **Open Graph** (Facebook, LinkedIn) - Preview rico ao compartilhar
+- ✅ **Twitter Cards** - Cartões otimizados para Twitter/X
+- ✅ **Meta Description** - Descrição otimizada para buscadores
+- ✅ **Meta Keywords** - Palavras-chave relevantes
+- ✅ **Canonical URL** - Evita conteúdo duplicado
+- ✅ **Structured Data (JSON-LD)** - Schema.org para melhor compreensão dos buscadores
+
+### Arquivos de SEO
+
+- 📄 `robots.txt` - Instruções para crawlers
+- 🗺️ `sitemap.xml` - Mapa do site para indexação
+
+### Próximos Passos de SEO (Recomendado)
+
+1. **Criar imagens otimizadas para redes sociais:**
+
+   - `public/og-image.jpg` (1200x630px) - Para Open Graph
+   - `public/twitter-image.jpg` (1200x600px) - Para Twitter Card
+   - `public/h3iisk-profile.jpg` - Foto de perfil do H3iisk
+
+2. **Atualizar URLs no `index.html`:**
+   - Substituir `https://h3iisk.com/` pela URL real do projeto
+3. **Adicionar Google Analytics ou similar:**
+
+   - Para monitorar acessos e comportamento dos usuários
+
+4. **Implementar Performance:**
+
+   - Lazy loading de imagens
+   - Minificação e compressão de assets
+   - CDN para servir conteúdo estático
+
+5. **Criar um favicon personalizado:**
+   - Substituir o `vite.svg` por um favicon do H3iisk
+
+## �📄 Estrutura do Projeto
 
 ```
 src/

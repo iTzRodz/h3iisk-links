@@ -1,0 +1,11 @@
+# robots.txt para H3iisk Links
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://h3iisk.com/sitemap.xml
+
+# Bloquear arquivos desnecessários
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.js.map$
