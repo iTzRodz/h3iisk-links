@@ -1,4 +1,4 @@
-import h3iiskImage from "/h3iisk-img.jpg";
+import h3iiskImage from "/h3iisk-img.webp";
 import { TwitchIcon } from "./assets/icons/twitch";
 import { YoutubeIcon } from "./assets/icons/youtube";
 import { InstagramIcon } from "./assets/icons/instagram";
@@ -15,7 +15,7 @@ function App() {
           <div className="size-36 rounded-full bg-white shadow-lg flex items-center justify-center border border-gray-300 dark:bg-gray-700 dark:border-gray-600">
             <img
               src={h3iiskImage}
-              className="rounded-full"
+              className="rounded-full w-auto h-auto"
               alt="Foto de perfil do H3iisk, streamer brasileiro de games"
               loading="eager"
             />
@@ -86,9 +86,10 @@ function App() {
             aria-label="Visite o perfil da PhantomLab no Instagram"
           >
             <img
-              src="/phantom-lab-logo.png"
+              src="/phantom-lab-logo.webp"
               alt="PhantomLab logo"
               className="w-6 h-6 rounded"
+              loading="lazy"
             />
             <span className="font-semibold text-gray-800 text-center w-full dark:text-white">
               PhantomLab
@@ -102,9 +103,10 @@ function App() {
             aria-label="Visite o perfil da Dirt Clothing no Instagram"
           >
             <img
-              src="/dirt-logo.png"
+              src="/dirt-logo.webp"
               alt="Dirt logo"
               className="w-6 h-6 rounded"
+              loading="lazy"
             />
             <span className="font-semibold text-gray-800 text-center w-full dark:text-white">
               Dirt
